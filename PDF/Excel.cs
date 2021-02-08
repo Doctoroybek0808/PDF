@@ -9,7 +9,8 @@ namespace PDF
         public Spire.Xls.Worksheet sheet;
         public Excel()
         {
-            workbook1 = new Spire.Xls.Workbook();       
+            workbook1 = new Spire.Xls.Workbook();
+            Console.WriteLine("asd");
         }
         public void Save(string fileName)
         {
